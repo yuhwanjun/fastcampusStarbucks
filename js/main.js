@@ -24,13 +24,13 @@ window.addEventListener('scroll', _.throttle(function () {
         // gsap.to(요소,시간,옵션);
         gsap.to(badgeEl, .6, {
             opacity: 0,
-            display: 'none';
+            display: 'none'
         });
     } else {
         //배지보이기
         gsap.to(badgeEl, .6, {
             opacity: 1,
-            display: 'block';
+            display: 'block'
         });
     }
 }, 300));
